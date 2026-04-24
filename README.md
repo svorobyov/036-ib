@@ -6,12 +6,12 @@
    additional installations.
 
 2. Or you can try running the notebooks in your own environment, or in Colab, Databricks, etc.
-   Just make sure you install the required packages in `requiremnents.txt`.
+   Just make sure you install the required packages in `requirements.txt`.
 
 
 ## The API Part of the Assignment
 
-Given time constraints we opted for the simplest but securest solution:
+Given time constraints, we opted for the simplest but securest solution:
 
 1. The API code is stored on GitHub.
 
@@ -40,15 +40,16 @@ pip install pandas lightgbm matplotlib streamlit IPython scikit-learn graphviz
 
 ### Running the API
 
-```
+```bash
 streamlit run https://raw.githubusercontent.com/svorobyov/036-ib/main/06-streamlit.py
 ```
 
 1. This will open a new tab in your browser.
 
-2. It will then ask you to upload the a `.csv` data file, similar to `'data-6-.csv'` with 
-two columns, of which only `date` and `location_A` will be taken into account, for 
-simplicity.
+2. It will then ask you to upload the a `.csv` data file, similar to `'data-6-.csv'`
+   (we do not provide for security/privacy reasons)  
+   of which only `date` and `location_A` columns will be taken into account, for 
+   simplicity.
 3. It will then plot the results.
 
 
@@ -63,5 +64,3 @@ burden and attack surface.
 
 3. Our solution is superior in terms of both security and functionality, provided that 
 the user has access to the API code and has enough computational resources.
-
-
