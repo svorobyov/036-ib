@@ -29,6 +29,9 @@ Given time constraints we opted for the simplest but securest solution:
 
 ### Installation
 
+This is a **MUST-HAVE**:
+
+
 ```bash
 pip install pandas lightgbm matplotlib streamlit IPython scikit-learn graphviz
 ```
@@ -38,12 +41,15 @@ pip install pandas lightgbm matplotlib streamlit IPython scikit-learn graphviz
 ### Running the API
 
 ```
-streamlit run https://raw.githubusercontent.com/svorobyov/036-ib/main/06-treamlit.py
+streamlit run https://raw.githubusercontent.com/svorobyov/036-ib/main/06-streamlit.py
 ```
 
-It will ask you to upload the a `.csv` data file, similar to `'data-6-.csv'` with 
+1. This will open a new tab in your browser.
+
+2. It will then ask you to upload the a `.csv` data file, similar to `'data-6-.csv'` with 
 two columns, of which only `date` and `location_A` will be taken into account, for 
 simplicity.
+3. It will then plot the results.
 
 
 ### Remarks
