@@ -4,10 +4,11 @@ prophet
 lightgbm
 u8darts[all]
 torch
-matplotlib
-plotly
 statsforecast
 xgboost
+
+matplotlib
+plotly
 # seaborn
 
 ipykernel
