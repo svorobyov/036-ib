@@ -64,3 +64,6 @@ burden and attack surface.
 
 3. Our solution is superior in terms of both security and functionality, provided that 
 the user has access to the API code and has enough computational resources.
+
+4. Production-grade model inferencing should be done with the appropriate secured and 
+trusted API/cloud services and tools like vLLM, SGLang, TensorRT-LLM and similar.
