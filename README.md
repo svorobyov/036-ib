@@ -1,6 +1,6 @@
 # 2026-04-22, -24
 
-## Three Models for Three Time Series 
+## Three Models for Three Time Series (3 x 3 Experiments/Predictions)
 
 1. You can browse and enjoy the notebooks (`03-ib.ipynb`) in this repo without any 
    additional installations.
