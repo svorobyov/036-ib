@@ -1,4 +1,4 @@
-# 2026-04-22
+# 2026-04-22, -24
 
 ## Three Models for Three Time Series 
 
@@ -6,6 +6,7 @@
    additional installations.
 
 2. Or you can try running the notebooks in your own environment, or in Colab, Databricks, etc.
+   Just make sure you install the required packages in `requiremnents.txt`.
 
 
 ## The API Part of the Assignment
@@ -39,6 +40,11 @@ pip install pandas lightgbm matplotlib streamlit IPython scikit-learn graphviz
 ```
 streamlit run https://raw.githubusercontent.com/svorobyov/036-ib/main/06-treamlit.py
 ```
+
+It will ask you to upload the a `.csv` data file, similar to `'data-6-.csv'` with 
+two columns, of which only `date` and `location_A` will be taken into account, for 
+simplicity.
+
 
 ### Remarks
 
