@@ -1,10 +1,17 @@
 numpy
 pandas
 prophet
-
+lightgbm
+u8darts[all]
+torch
 matplotlib
-seaborn
+plotly
+statsforecast
+xgboost
+# seaborn
 
-# ipykernel
-# jupyterlab
-# ipywidgets
+ipykernel
+jupyterlab
+ipywidgets
+
+streamlit
