@@ -1,0 +1,10 @@
+numpy
+pandas
+prophet
+
+matplotlib
+seaborn
+
+# ipykernel
+# jupyterlab
+# ipywidgets
