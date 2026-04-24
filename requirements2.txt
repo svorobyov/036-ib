@@ -1,0 +1,12 @@
+# Needed for running my Streamlit API
+
+pandas
+scikit-learn
+lightgbm
+
+matplotlib
+graphviz
+
+streamlit
+
+IPython

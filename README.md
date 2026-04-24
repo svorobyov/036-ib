@@ -1,8 +1,11 @@
 # 2026-04-22
 
-You can browse and enjoy the notebooks in this repo without any installation.
+## Three Models for Three Time Series 
 
-Or you can try running the notebooks in your own environment, or in Colab, Databricks, etc.
+1. You can browse and enjoy the notebooks (`03-ib.ipynb`) in this repo without any 
+   additional installations.
+
+2. Or you can try running the notebooks in your own environment, or in Colab, Databricks, etc.
 
 
 ## The API Part of the Assignment
@@ -25,23 +28,28 @@ Given time constraints we opted for the simplest but securest solution:
 
 ### Installation
 
+```bash
+pip install pandas lightgbm matplotlib streamlit IPython scikit-learn graphviz
 ```
-pip intall matplotlib streamlit
-```
+(or `pip install -r requirements2.txt -U`)
 
+
+### Running the API
 
 ```
 streamlit run https://raw.githubusercontent.com/svorobyov/036-ib/main/06-treamlit.py
 ```
 
-We can, of course, implent pure cloud-based model inferencing, using the same API on 
-AWS App Runner or Google Cloud Run, but it adds nothing to functionality, but will 
+### Remarks
+
+1. We can, of course, implement pure cloud-based model inferencing, using the same API on 
+AWS App Runner or Google Cloud Run, but it adds nothing to functionality but will 
 reduce data privacy and security.
 
-Besides, a cloud solution will will require a substantial secutrity/authentication 
+2. Besides, a cloud solution will will require a substantial secutrity/authentication 
 burden and attack surface.
 
-Our solution is superior in terms of both security and functionality, provided that 
+3. Our solution is superior in terms of both security and functionality, provided that 
 the user has access to the API code and has enough computational resources.
 
 

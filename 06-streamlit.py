@@ -1,9 +1,8 @@
-import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-
 from lightgbm import (LGBMRegressor, plot_importance, plot_tree)
 from IPython.display import display, Markdown  # to display markdown cells
+import matplotlib.pyplot as plt
+import streamlit as st
 
 
 CSV_FILE = 'data-6-.csv'
